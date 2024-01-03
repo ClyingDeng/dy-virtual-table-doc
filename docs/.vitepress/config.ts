@@ -35,6 +35,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ClyingDeng/dy-virtual-table' }
-    ]
+    ],
+    footer:{
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2023-present Clying Deng'
+    }
   }
 })
