@@ -6,7 +6,7 @@
 dy-virtual-table 可以在支持 ES2018 和 ResizeObserver 的浏览器上运行。 如果您确实需要支持旧版本的浏览器，请自行添加 Babel 和相应的 Polyfill 。
 
 由于 Vue 3 不再支持 IE11，Element Plus 也不再支持 IE 浏览器。
-![Alt text](./asset/image.png)
+![Alt text](../asset/image.png)
 
 
 ### 版本
@@ -15,7 +15,7 @@ dy-virtual-table 目前处于1.0.0版本，正在努力研发中。
 
 #
 我们建议您使用包管理器（如 NPM、Yarn 或 pnpm）安装 dy-virtual-table，然后您就可以使用打包工具，例如 Vite 或 webpack。
-````md
+````node
 # 选择一个你喜欢的包管理器
 
 # NPM

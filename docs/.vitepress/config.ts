@@ -8,8 +8,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '指南', link: '/quick-start/' },
-      { text: '组件', link: '/components/index' }
+      { text: '指南', link: '/quick-start/', activeMatch: '/quick-start/' },
+      { text: '组件', link: '/components/index', activeMatch: '/components/'}
     ],
 
     sidebar: {

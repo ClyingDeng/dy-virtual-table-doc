@@ -9,10 +9,11 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /quick-start/index
+      link: /quick-start
     - theme: alt
       text: 组件 API
       link: /components/index
+      
 
 features:
   - title: 指南
