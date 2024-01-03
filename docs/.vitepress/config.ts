@@ -8,19 +8,30 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '指南', link: '/quick-start' },
-      { text: '组件', link: '/markdown-examples' }
+      { text: '指南', link: '/quick-start/' },
+      { text: '组件', link: '/components/index' }
     ],
 
-    sidebar: [
-      {
-        text: '虚拟表格',
-        items: [
-          { text: '基础表格', link: '/base-table.md' },
-          { text: '复杂表格', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/quick-start/':[
+        {
+          text: '使用指南',
+          items: [
+            { text: '基础', link: '/quick-start/' },
+            // { text: '复杂表格', link: '/api-examples' }
+          ]
+        }
+      ],
+      '/components/':[
+        {
+          text: 'Vtable 组件',
+          items: [
+            { text: '基础表格', link: '/components/' },
+            { text: '图形表格', link: '/components/canvas-table' }
+          ]
+        }
+      ],
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/ClyingDeng/dy-virtual-table' }
