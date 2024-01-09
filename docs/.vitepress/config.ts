@@ -27,7 +27,7 @@ export default defineConfig({
           text: 'Vtable 组件',
           items: [
             { text: '基础表格', link: '/components/' },
-            { text: '图形表格', link: '/components/canvas-table' }
+            { text: 'canvas 表格', link: '/components/canvas-table' }
           ]
         }
       ],

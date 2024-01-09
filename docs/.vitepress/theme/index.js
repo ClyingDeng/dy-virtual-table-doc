@@ -1,9 +1,9 @@
 import DefaultTheme from 'vitepress/theme'
-import dyTable from 'dy-virtual-table'
-import 'dy-virtual-table/dist/style.css'
 import hljs from 'highlight.js'
 import 'highlight.js/styles/googlecode.css' //样式文件
-
+import dyTable from 'dy-virtual-table'
+import 'dy-virtual-table/dist/style.css'
+import '../style.css'
 
 export default {
   extends: DefaultTheme,
@@ -16,7 +16,7 @@ export default {
         mounted(el) {
           // 使用第三方库或自定义逻辑进行代码高亮
           // 例如，使用 highlight.js 进行代码高亮
-          import('highlight.js').then((hljs) => {
+          import('highlight.js').then(() => {
             let blocks = el.querySelectorAll('pre code');
             blocks.forEach((block) => {
               hljs.highlightBlock(block)
