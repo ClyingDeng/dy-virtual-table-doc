@@ -19,8 +19,7 @@ const tHeaderConfig = ref([
   },
   {
     label: '地址4',
-    prop: 'address',
-    width: 260
+    prop: 'address'
   }
 ])
 

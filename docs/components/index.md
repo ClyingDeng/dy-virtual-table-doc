@@ -5,14 +5,8 @@
 ## 基础表格
 
 表格二次封装，基础的表格展示用法。
-<!-- <style scoped>
-  @import 'dy-virtual-table/dist/style.css'
-</style> -->
+
 <script setup>
-  import DemoBlock from '../.vitepress/components/DemoBlock.vue'
-  import TableDemo1 from '../.vitepress/components/table/demo1.vue'
-  import TableDemo2 from '../.vitepress/components/table/demo2.vue'
-  
 </script>
 
 <demo-block>
