@@ -538,5 +538,52 @@ const tableData = ref([
 
 
 
+## 带斑马纹表格
+使用带斑马纹的表格，可以更容易区分出不同行的数据。
+
+stripe 可以创建带斑马纹的表格。 如果 true, 表格将会带有斑马纹。
+
+
+<demo-block>
+
+<template #source>
+<table-demo4></table-demo4>
+</template>
+
+
+<template #highlight>
+
+```html
+
+  
+```
+
+</template>
+</demo-block>
+
+
+
 ## 虚拟表格
-支持大数据表格
+在前端开发领域，表格一直都是一个高频出现的组件，尤其是在中后台和数据分析场景。 但是，对于 Table V1来说，当一屏里超过 1000 条数据记录时，就会出现卡顿等性能问题，体验不是很好。
+
+通过虚拟化表格组件，超大数据渲染将不再是一个头疼的问题。
+
+
+<demo-block>
+
+<template #source>
+<table-demo4></table-demo4>
+</template>
+
+
+在表格 `dy-virtual-table` 中，`border` 设置表格是否存在边框。
+
+<template #highlight>
+
+```html
+
+  
+```
+
+</template>
+</demo-block>

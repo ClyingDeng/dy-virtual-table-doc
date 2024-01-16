@@ -1,3 +1,4 @@
+<!-- 条纹 -->
 <script setup lang="ts">
 import { ref } from 'vue'
 
@@ -36,7 +37,6 @@ const tHeaderConfig = ref([
 ])
 
 const tableData = ref([
-  
   {
     name: 'clying1',
     sex32: '女',
