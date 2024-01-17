@@ -1,22 +1,3 @@
-# Canvas 虚拟表格
-
-## 基础表格
-
-表格二次封装，基础的表格展示用法。
-
-<script setup>
-</script>
-
-<demo-block>
-
-<template #source>
-<canvas-table-demo1></canvas-table-demo1>
-</template>
-
-
-
-
-```vue
 <script setup lang="ts">
 import { ref } from 'vue'
 
@@ -184,13 +165,8 @@ const tableData = ref([
 
 
 <template>
-<canvas-table :height="200" :data="tableData" :columns="tHeaderConfig"></canvas-table>
+<canvas-table :height="180" :data="tableData" :columns="tHeaderConfig"></canvas-table>
 </template>
 <style>
 
 </style>
-
-```
-
-
-</demo-block>

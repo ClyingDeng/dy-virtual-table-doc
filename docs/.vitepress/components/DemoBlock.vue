@@ -7,7 +7,7 @@
       <div class="description" v-if="$slots.default">
         <slot></slot>
       </div>
-      <div class="highlight " v-highlight>
+      <div class="highlight" v-highlight>
         <slot name="highlight"></slot>
       </div>
     </div>
@@ -71,11 +71,11 @@
 
     code {
       color: #5e6d82;
-      background-color: #e6effb;
+      // background-color: #e6effb;
       margin: 0 4px;
       display: inline-block;
       padding: 1px 5px;
-      font-size: 12px;
+      // font-size: 12px;
       border-radius: 3px;
       height: 18px;
       line-height: 18px;
@@ -159,6 +159,7 @@
     }
   }
 }
+
 </style>
 
 <script type="text/babel">
@@ -185,5 +186,12 @@ export default {
         : this.langConfig["show-text"];
     },
   },
+  mounted() {
+    const linkElement = document.createElement('link');
+linkElement.rel = 'stylesheet';
+linkElement.href = 'highlight.js/styles/googlecode.css';
+document.head.appendChild(linkElement);
+
+  }
 };
 </script>

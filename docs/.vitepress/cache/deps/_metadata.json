@@ -1,29 +1,38 @@
 {
-  "hash": "73ef8d19",
+  "hash": "80576ff5",
   "configHash": "fe4cda3b",
-  "lockfileHash": "936a484f",
-  "browserHash": "0c4e19b9",
+  "lockfileHash": "b1db6610",
+  "browserHash": "68cdcec3",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "76cb9ef4",
+      "fileHash": "2a0f44d9",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/@vue/devtools-api/lib/esm/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "47499c91",
+      "fileHash": "19b7252c",
       "needsInterop": false
     },
     "highlight.js": {
       "src": "../../../../node_modules/highlight.js/es/index.js",
       "file": "highlight__js.js",
-      "fileHash": "0239ffaf",
+      "fileHash": "fa7daa8c",
+      "needsInterop": false
+    },
+    "dy-virtual-table": {
+      "src": "../../../../node_modules/dy-virtual-table/dist/dy-virtual-table.mjs",
+      "file": "dy-virtual-table.js",
+      "fileHash": "56978791",
       "needsInterop": false
     }
   },
   "chunks": {
+    "chunk-RBH54IHM": {
+      "file": "chunk-RBH54IHM.js"
+    },
     "chunk-LQ2VYIYD": {
       "file": "chunk-LQ2VYIYD.js"
     }

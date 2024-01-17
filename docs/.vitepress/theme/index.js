@@ -1,10 +1,12 @@
 import DefaultTheme from 'vitepress/theme'
-import hljs from 'highlight.js'
-import 'highlight.js/styles/googlecode.css' //样式文件
 import dyTable from 'dy-virtual-table'
 import 'dy-virtual-table/dist/style.css'
 import '../style.css'
 import DemoBlock from '../components/DemoBlock.vue'
+import hljs from 'highlight.js'
+import 'highlight.js/styles/googlecode.css' //样式文件
+
+
 
 import { defineAsyncComponent } from 'vue'
 // @ts-ignore
