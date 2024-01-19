@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "dy-virtual-table",
+  base: '/dy-virtual-table-doc/',
   description: " dy-virtual-table组件文档",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

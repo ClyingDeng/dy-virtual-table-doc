@@ -1,7 +1,7 @@
 import {
   __commonJS,
   __toESM
-} from "./chunk-LQ2VYIYD.js";
+} from "./chunk-CEQRFMJQ.js";
 
 // node_modules/highlight.js/lib/core.js
 var require_core = __commonJS({

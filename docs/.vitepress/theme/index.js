@@ -4,7 +4,7 @@ import 'dy-virtual-table/dist/style.css'
 import '../style.css'
 import DemoBlock from '../components/DemoBlock.vue'
 import hljs from 'highlight.js'
-import 'highlight.js/styles/googlecode.css' //样式文件
+// import 'highlight.js/styles/googlecode.css' //样式文件
 
 
 

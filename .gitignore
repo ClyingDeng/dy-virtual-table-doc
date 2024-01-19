@@ -2,7 +2,10 @@
 node_modules
 /dist
 .history
-
+deploy.sh
+.travis.yml
+build
+docs/.vitepress/dist
 
 # local env files
 .env.local

@@ -33,9 +33,12 @@ const tableData = generateData(tHeaderConfig, 1000)
 </script>
 
 <template>
-  <dy-virtual-table
+  <ClientOnly>
+    <dy-virtual-table
     :height="100"
     :data="tableData"
     :columns="tHeaderConfig"
   ></dy-virtual-table>
+  </ClientOnly>
+
 </template>

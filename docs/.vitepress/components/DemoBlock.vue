@@ -1,6 +1,6 @@
 <template>
   <div class="demo-block">
-    <div style="padding:24px">
+    <div style="padding: 24px;">
       <slot name="source"></slot>
     </div>
     <div class="meta" ref="meta" v-show="isExpanded">
@@ -159,7 +159,6 @@
     }
   }
 }
-
 </style>
 
 <script type="text/babel">
@@ -171,27 +170,20 @@ export default {
       fixedControl: false,
       scrollParent: null,
       langConfig: {
-        "hide-text": "隐藏代码",
-        "show-text": "显示代码",
+        'hide-text': '隐藏代码',
+        'show-text': '显示代码',
       },
-    };
+    }
   },
   computed: {
     iconClass() {
-      return this.isExpanded ? "el-icon-caret-top" : "el-icon-caret-bottom";
+      return this.isExpanded ? 'el-icon-caret-top' : 'el-icon-caret-bottom'
     },
     controlText() {
       return this.isExpanded
-        ? this.langConfig["hide-text"]
-        : this.langConfig["show-text"];
+        ? this.langConfig['hide-text']
+        : this.langConfig['show-text']
     },
   },
-  mounted() {
-    const linkElement = document.createElement('link');
-linkElement.rel = 'stylesheet';
-linkElement.href = 'highlight.js/styles/googlecode.css';
-document.head.appendChild(linkElement);
-
-  }
-};
+}
 </script>

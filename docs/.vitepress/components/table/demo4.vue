@@ -275,11 +275,13 @@ const tableData = ref([
 </script>
 
 <template>
-  <dy-virtual-table
-    stripe
-    :border="false"
-    :height="100"
-    :data="tableData"
-    :columns="tHeaderConfig"
-  ></dy-virtual-table>
+  <ClientOnly>
+    <dy-virtual-table
+      stripe
+      :border="false"
+      :height="100"
+      :data="tableData"
+      :columns="tHeaderConfig"
+    ></dy-virtual-table>
+  </ClientOnly>
 </template>

@@ -138,9 +138,11 @@ const tableData = ref([
 </script>
 
 <template>
+<ClientOnly>
   <dy-virtual-table
     :height="300"
     :data="tableData"
     :columns="tHeaderConfig"
   ></dy-virtual-table>
+</ClientOnly>
 </template>
