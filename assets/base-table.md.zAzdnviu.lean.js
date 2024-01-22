@@ -1,1 +1,0 @@
-import{_ as s,c as a,o as i,V as n}from"./chunks/framework.R-ue_C5-.js";const g=JSON.parse('{"title":"基础数据表格渲染","description":"","frontmatter":{},"headers":[],"relativePath":"base-table.md","filePath":"base-table.md"}'),t={name:"base-table.md"},l=n("",18),e=[l];function p(h,k,r,E,d,o){return i(),a("div",null,e)}const u=s(t,[["render",p]]);export{g as __pageData,u as default};
