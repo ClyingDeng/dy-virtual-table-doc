@@ -28,6 +28,9 @@ export default defineConfig({
   plugins: [vue(), eslintPlugin(), vueSetupExtend()],
   build: {
     rollupOptions: {
+      output: {
+      format: 'esm', // 使用 ES Module 格式
+    },
       external
     }
   },

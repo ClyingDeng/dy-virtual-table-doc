@@ -5,6 +5,7 @@ export default defineConfig({
   title: "dy-virtual-table",
   base: '/dy-virtual-table-doc/',
   description: " dy-virtual-table组件文档",
+  browserslist: ['last 1 version'],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
